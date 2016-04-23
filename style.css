@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
 * {
     box-sizing: border-box;
@@ -125,4 +126,11 @@ footer{
     
     background-color: #ededed;
     padding: 1em 0;
+}
+
+#idform{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    display: block;
+    
 }

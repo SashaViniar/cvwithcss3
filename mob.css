@@ -2,4 +2,13 @@
     body {
         background-color: lightgreen;
     }
+    
+    .fig{
+        text-align: left;
+    }
+    
+    .button{
+        width: 15%;
+        text-align: left;
+    }
 }
