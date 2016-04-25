@@ -4,11 +4,16 @@
     }
     
     .fig{
-        text-align: left;
+        text-align: center;
     }
     
     .button{
         width: 15%;
         text-align: left;
     }
+    
+    .imgmy{
+        width: 300px;
+    }
+    
 }
