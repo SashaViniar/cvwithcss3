@@ -63,9 +63,12 @@ main{
     background-color: white;
 }
 
-main img{
-    margin: auto;
+
+.classm {
+    overflow-y:scroll;
+    height : 780px;
 }
+
 h1{
     font-family: 'Indie Flower';
     text-align: center;

@@ -1,7 +1,7 @@
 // JavaScript File
 
 
-function square(a, b, c) {
+/*function square(a, b, c) {
     var d = b * b - 4 * a * c;
     var x1 = (-b + Math.sqrt(d)) / (2 * a);
     var x2 = (-b - Math.sqrt(d)) / (2 * a);
@@ -17,7 +17,7 @@ function fib(stopnumber) {
     var f1 = 2;
     var f2 = f1 + f0;
     var result = ' ';
-    while (f2 < stopnumber){
+    while (f2 < stopnumber) {
         f2 = f1 + f0;
 
         result += '\n' + f2;
@@ -28,4 +28,5 @@ function fib(stopnumber) {
     alert(result);
 }
 
-fib(120);
+fib(120);*/
+
