@@ -1,32 +1,33 @@
 // JavaScript File
 
+//MAIN class = classm
 
-/*function square(a, b, c) {
-    var d = b * b - 4 * a * c;
-    var x1 = (-b + Math.sqrt(d)) / (2 * a);
-    var x2 = (-b - Math.sqrt(d)) / (2 * a);
+/*$(document).ready(function($) {
+    $('#idnet').fadeOut("fast");
+    $('#idplus').fadeOut("fast");
+    $('#idsql').fadeOut("fast");
+    $('#idhtmlcssjs').fadeOut("fast");
+})
 
-    alert("x1 = " + x1);
-    alert("x2 = " + x2);
-}
+var T = true;
+while (T) {
+    $('#idnet').fadeIn("fast");
+    $('#idnet').fadeOut("slow");
 
-square(1, 5, 0);
+    $('#idplus').fadeIn("fast");
+    $('#idplus').fadeOut("slow");
 
-function fib(stopnumber) {
-    var f0 = 1;
-    var f1 = 2;
-    var f2 = f1 + f0;
-    var result = ' ';
-    while (f2 < stopnumber) {
-        f2 = f1 + f0;
+    $('#idsql').fadeIn("fast");
+    $('#idsql').fadeOut("slow");
 
-        result += '\n' + f2;
+    $('#idhtmlcssjs').fadeIn("fast");
+    $('#idhtmlcssjs').fadeOut("slow");
 
-        f0 = f1;
-        f1 = f2;
-    }
-    alert(result);
-}
+    if (btn.addEventListener('click', function() {
+            $('#idnet').fadeIn("fast");
+            $('#idplus').fadeIn("fast");
+            $('#idsql').fadeIn("fast");
+            $('#idhtmlcssjs').fadeIn("fast");
+        })) T = false;
 
-fib(120);*/
-
+}*/
