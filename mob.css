@@ -1,23 +1,22 @@
 @media screen and (max-width: 800px) {
-    body {
-        background-color: lightgreen;
+    html {
+        background: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSa4-ssqwurszHOpxKxu3Bvll9ACyWZ_hfRWgMfLK3HZvsPFYIG") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
-    
-    .fig{
+    .fig {
         text-align: center;
     }
-    
-    .button{
+    .button {
         width: 15%;
         text-align: left;
     }
-    
-    .imgmy{
+    .imgmy {
         width: 300px;
     }
-    
-    .classm{
+    .classm {
         height: 300px;
     }
-    
 }

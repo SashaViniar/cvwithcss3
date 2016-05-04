@@ -2,32 +2,66 @@
 
 //MAIN class = classm
 
-/*$(document).ready(function($) {
+
+//recursiv function
+
+$(document).ready(function($) {
     $('#idnet').fadeOut("fast");
     $('#idplus').fadeOut("fast");
     $('#idsql').fadeOut("fast");
     $('#idhtmlcssjs').fadeOut("fast");
 })
 
-var T = true;
-while (T) {
-    $('#idnet').fadeIn("fast");
-    $('#idnet').fadeOut("slow");
+var a = true;
+var b = true;
+var c = true;
+var d = true;
 
-    $('#idplus').fadeIn("fast");
-    $('#idplus').fadeOut("slow");
+$('#btn-net').click(function() {
+    if (a) {
+        $('#idnet').fadeIn("slow");
+        a = false;
+    }
+    else {
+        $('#idnet').fadeOut("slow");
+        a = true;
+    }
 
-    $('#idsql').fadeIn("fast");
-    $('#idsql').fadeOut("slow");
+});
+$('#btn-plus').click(function() {
+    if (b) {
+        $('#idplus').fadeIn("slow");
+        b = false;
+    }
+    else {
+        $('#idplus').fadeOut("slow");
+        b = true;
+    }
 
-    $('#idhtmlcssjs').fadeIn("fast");
-    $('#idhtmlcssjs').fadeOut("slow");
+});
 
-    if (btn.addEventListener('click', function() {
-            $('#idnet').fadeIn("fast");
-            $('#idplus').fadeIn("fast");
-            $('#idsql').fadeIn("fast");
-            $('#idhtmlcssjs').fadeIn("fast");
-        })) T = false;
 
-}*/
+$('#btn-sql').click(function() {
+    if (c) {
+        $('#idsql').fadeIn("slow");
+        c = false;
+    }
+    else {
+        $('#idsql').fadeOut("slow");
+        c = true;
+    }
+
+});
+
+
+$('#btn-html').click(function() {
+    if (d) {
+        $('#idhtmlcssjs').fadeIn("slow");
+        d = false;
+    }
+    else {
+        $('#idhtmlcssjs').fadeOut("slow");
+        d = true;
+    }
+
+});
